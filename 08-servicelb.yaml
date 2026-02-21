@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-np
+  name: nginx-lb
   labels:
-    purpose: service-demo
+    purpose: service-demo-lb
 spec:
   type: LoadBalance
   selector:
@@ -18,9 +18,9 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: nginx-np
+  name: nginx-lb
   labels:
-    purpose: service-demo
+    purpose: service-demo-lb
     project: roboshop
     environment: dev
 spec:
