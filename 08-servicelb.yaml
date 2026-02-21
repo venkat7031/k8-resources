@@ -5,7 +5,7 @@ metadata:
   labels:
     purpose: service-demo-lb
 spec:
-  type: LoadBalance
+  type: LoadBalancer
   selector:
     project: roboshop
     environment: dev
