@@ -4,7 +4,7 @@ metadata:
   name: nginx
   labels:
     purpose: demo
-    decription: "This is labelsmof nginx"
+    decription: "this-is-labels-of-nginx"
 spec:
   containers:
   - name: nginx
