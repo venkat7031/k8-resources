@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: Service-NP
+kind: Service-np
 metadata:
-  name: nginx-NP
+  name: nginx-np
   labels:
     purpose: service-demo
 spec:
@@ -18,12 +18,12 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: nginx-NP
+  name: nginx-np
   labels:
     purpose: service-demo
     project: roboshop
     environment: dev
 spec:
   containers:
-  - name: nginx-NP
-    image: nginx-NP
+  - name: nginx-np
+    image: nginx-np
