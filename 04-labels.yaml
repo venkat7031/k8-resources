@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: nginx
+  labels:
+    purpose: demo
+    decription: "This is labelsmof nginx"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
